@@ -12,13 +12,7 @@ import io.cucumber.testng.CucumberOptions;
 
 		features = { ".//Features/LoginFeature.feature"
 		// ".//Features/Customers.feature"
-		}, glue = "StepDefinition", dryRun = false, monochrome = true, tags = "@Sanity", // scenarios
-																							// under
-																							// @sanity
-																							// tag
-																							// will
-																							// be
-																							// executed
+		}, glue = "StepDefinition", dryRun = false, monochrome = true, tags = "@Sanity", 
 		plugin = { "pretty", // "html:target/cucumber-reports/reports_html.html",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" })
 

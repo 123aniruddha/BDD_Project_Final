@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Cucumber Test Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jul 3, 2024 11:22:57 am</span></a>
+<a href="#"><span class="badge badge-primary">Jul 3, 2024 02:52:25 pm</span></a>
 </li>
 </ul>
 </div>
@@ -97,7 +97,7 @@
           <div class="test-detail">
             <p class="name">Login</p>
             <p class="text-sm">
-              <span>11:22:58 am</span> / <span>00:00:05:415</span>
+              <span>2:52:26 pm</span> / <span>00:00:03:984</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -106,9 +106,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">Login</h5>
-<span class='badge badge-success'>07.03.2024 11:22:58 am</span>
-<span class='badge badge-danger'>07.03.2024 11:23:03 am</span>
-<span class='badge badge-default'>00:00:05:415</span>
+<span class='badge badge-success'>07.03.2024 2:52:26 pm</span>
+<span class='badge badge-danger'>07.03.2024 2:52:30 pm</span>
+<span class='badge badge-default'>00:00:03:984</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -121,75 +121,50 @@
     <div class="card-header" role="tab">
       <div class="card-title">
         <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Successful Login with Valid Credentials</div>
-          <div class="status-avatar float-right mr-4">
-            <i class="fa fa-paperclip"></i>
-          </div>
       </div>
     </div>
         <div class="">
           <div class="card-body">
-              <div class="step pass-bg" title="StepDefinition.StepDef.user_launch_chrome_browser()">
-                <span>Given User Launch Chrome browser</span>
+              <div class="step fail-bg" title="BEFORE">
+                <span>StepDefinition.StepDef.setup1()</span>
       <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="StepDefinition.StepDef.user_opens_url(java.lang.String)">
-                <span>When User opens URL "http://admin-demo.nopcommerce.com/login"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="StepDefinition.StepDef.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)">
-                <span>And User enters Email as "admin@yourstore.com" and Password as "admin"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step fail-bg" title="StepDefinition.StepDef.click_on_login()">
-                <span>And Click on Login</span>
-      <div>
-        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='button-1 login-button1']"}
-  (Session info: chrome=126.0.6478.127)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.0', revision: '15400459dd*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c3adf87e9337574367e6b0877510cd19, findElement {using=xpath, value=//button[@class='button-1 login-button1']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\aniru\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50200}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50200/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c3adf87e9337574367e6b0877510cd19
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy41.click(Unknown Source)
-	at PageObject.LoginPage.clickOnLoginButton(LoginPage.java:50)
-	at StepDefinition.StepDef.click_on_login(StepDef.java:112)
-	at ✽.Click on Login(file:///C:/Users/aniru/Downloads/CucumberFramework/CucumberFramework-master/CucumberFramework/./Features/LoginFeature.feature:8)
+        <textarea disabled class="code-block">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:51263/devtools/browser/1674543e-0909-45f2-a74c-af98febe85eb
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'KCM', ip: '192.168.109.86', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:104)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:137)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:116)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:124)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:122)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:104)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:91)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:46)
+	at StepDefinition.StepDef.setup1(StepDef.java:51)
 </textarea>
       
       </div>
               </div>
-              <div class="step pass-bg" title="AFTER_STEP">
-                <span>StepDefinition.StepDef.addScreenShot(io.cucumber.java.Scenario)</span>
-      <div>Successful Login with Valid Credentials
-          <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='../Screenshotsembedded1.png' src="../Screenshotsembedded1.png">
-    
-    </div></div>
-</div>
-      <div>
+              <div class="step skip-bg" title="StepDefinition.StepDef.user_launch_chrome_browser()">
+                <span>Given User Launch Chrome browser</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinition.StepDef.user_opens_url(java.lang.String)">
+                <span>When User opens URL "http://admin-demo.nopcommerce.com/login"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinition.StepDef.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)">
+                <span>And User enters Email as "admin@yourstore.com" and Password as "admin"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinition.StepDef.click_on_login()">
+                <span>And Click on Login</span>
+      <div>Step skipped
       </div>
               </div>
               <div class="step skip-bg" title="StepDefinition.StepDef.page_title_should_be(java.lang.String)">
@@ -212,6 +187,15 @@ Session ID: c3adf87e9337574367e6b0877510cd19
       <div>Step skipped
       </div>
               </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>StepDefinition.StepDef.teardown(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "StepDefinition.StepDef.driver" is null
+	at StepDefinition.StepDef.teardown(StepDef.java:347)
+</textarea>
+      
+      </div>
+              </div>
           </div>
         </div>
   </div>
@@ -231,7 +215,7 @@ Session ID: c3adf87e9337574367e6b0877510cd19
 <div class="test-list">
 <div class="test-list-tools">
 <ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
 </div>
 <div class="test-list-wrapper scrollable">
 <ul class="test-list-item">
@@ -240,12 +224,12 @@ Session ID: c3adf87e9337574367e6b0877510cd19
 <span class="meta">
 <span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">org.openqa.selenium.NoSuchElementException</p>
+<p class="name">java.lang.NullPointerException</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>org.openqa.selenium.NoSuchElementException</h4>
+<h4>java.lang.NullPointerException</h4>
 <span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -259,11 +243,47 @@ Session ID: c3adf87e9337574367e6b0877510cd19
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>11:23:03 am</td>
+<td>14:52:30 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='10'>And Click on Login</a>
+<a href="#" class="linked" test-id='1' id='20'>StepDefinition.StepDef.teardown(io.cucumber.java.Scenario)</a>
 <div class="">
-<span class="badge badge-default">Login.Successful Login with Valid Credentials.And Click on Login</span>
+<span class="badge badge-default">Login.Successful Login with Valid Credentials.StepDefinition.StepDef.teardown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.remote.http.ConnectionFailedException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.remote.http.ConnectionFailedException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:52:26 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>StepDefinition.StepDef.setup1()</a>
+<div class="">
+<span class="badge badge-default">Login.Successful Login with Valid Credentials.StepDefinition.StepDef.setup1()</span>
 </div>
 </td>
 </tr>
@@ -311,7 +331,7 @@ Session ID: c3adf87e9337574367e6b0877510cd19
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>11:22:58 am</td>
+<td>14:52:26 pm</td>
 <td>
 <a href="#" class="linked" test-id='1' id='2'>Successful Login with Valid Credentials</a>
 <div class="">
@@ -336,13 +356,13 @@ Session ID: c3adf87e9337574367e6b0877510cd19
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jul 3, 2024 11:22:57 am</h3>
+<h3>Jul 3, 2024 02:52:25 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jul 3, 2024 11:23:03 am</h3>
+<h3>Jul 3, 2024 02:52:30 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -413,10 +433,10 @@ Session ID: c3adf87e9337574367e6b0877510cd19
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='44%'><b>4</b> steps passed</small></div>
+<div><small data-tooltip='0%'><b>0</b> steps passed</small></div>
 <div>
-<small data-tooltip='11%'><b>1</b> steps failed,
-<b>4</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='20%'><b>2</b> steps failed,
+<b>8</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -432,7 +452,7 @@ Session ID: c3adf87e9337574367e6b0877510cd19
 </div></div>
 <script>
 var timeline = {
-"Login":5.415
+"Login":3.984
 };
 </script>
 <div class="row">
@@ -495,10 +515,10 @@ warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 4,
-failGrandChild: 1,
+passGrandChild: 0,
+failGrandChild: 2,
 warningGrandChild: 0,
-skipGrandChild: 4,
+skipGrandChild: 8,
 infoGrandChild: 0,
 eventsCount: 5,
 };
